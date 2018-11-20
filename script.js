@@ -99,7 +99,9 @@ playRoshambo = function(clientGesture){
 
 
 
-// didn't end up needing this function, didn't wanna throw it out
+
+// I didn't need this fucntion, didn't wanna trhow it out though
+
 
 // function printResults(results) {
 //   var elem = document.getElementById('write-here');
