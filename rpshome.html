@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Just a Game of Rock, Paper, Scissors!</title>
+  </head>
+  <body>
+    <div class="page-header">
+  	<h1 id="header">Rock, Paper, Scissors, Shoot!<small><p>Can you beat the computer?</p></small></h1>
+	</div>
+
+<div class="row" id="game-row" >
+
+    <div class="col-md-4">
+      	  <div class="panel panel-default" id="action-panel">
+		  <div class="panel-heading display-4">Player Move!</div>
+		  <div class="panel-body">
+		    <p id="fine-print">Select a move, the computer will follow your lead.</p>
+		  </div>
+		  <ul class="list-group">
+		    <li class="list-group-item"><a href="#" onclick="playRoshambo('rock')">Rock</a></li>
+			<li class="list-group-item"><a href="#" onclick="playRoshambo('paper')">Paper</a></li>
+			<li class="list-group-item"><a href="#" onclick="playRoshambo('scissors')">Scissors</a></li>
+		  <div class="panel-footer panel-warning">Player Score:<div id="writePlayerScore"></div> </div>
+		</div>
+    </div>
+
+	
+	<div class="col-md-4" id="action-panel">
+		<br><br><br>
+		<div id="writeHere">
+			
+		</div>
+
+    </div>
+   
+
+	<div class="col-md-4">
+  	  <div class="panel panel-default" id="action-panel">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading display-4">CPU Move!</div>
+	  <div class="panel-body">
+	    <p id="fine-print">The computer's move is randomly generated.</p>
+	  </div>
+
+	  <!-- List group -->
+	  <ul class="list-group">
+		<li class="list-group-item">Rock</li>
+	    <li class="list-group-item">Paper</li>
+	    <li class="list-group-item">Scissors</li>
+	  </ul>
+	 <div class="panel-footer">CPU Score:<div id="writeCpuScore"></div> </div>
+	</div>
+</div>
+
+
+	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- <script src="script.js"></script> -->
+</body>
+</html>

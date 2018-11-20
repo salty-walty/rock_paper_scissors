@@ -1,0 +1,19 @@
+#header {
+	text-align: center;
+	margin: 20px;
+	background-color: #E6E6FA;
+	border-radius: 25%;
+}
+
+#game-row {
+	padding: 100px;
+	margin: 20px;
+}
+
+#action-panel {
+	text-align: center;
+}
+
+#fine-print {
+	font-size: 12px;
+}
